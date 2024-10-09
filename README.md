@@ -1,7 +1,3 @@
-The `README.md` content is mostly clear, but I’ll refine it for better readability and to ensure the instructions are easy to follow. Here’s an improved version:
-
----
-
 # Project Creator Script
 
 This is a simple shell script to help you quickly create a new web project. The script generates basic project files such as `index.html`, `style.css`, and `main.js`, and also opens the project in **VS Code**.
@@ -9,8 +5,10 @@ This is a simple shell script to help you quickly create a new web project. The 
 ## Steps to Use the Script
 
 Follow these steps to set up and use the script on your machine:
+### 1. Open Git Bash
 
-### 1. Create a new file
+
+### 2. Create a new file
 
 Run the following command to create a new file named `create-project.sh`:
 
@@ -18,11 +16,11 @@ Run the following command to create a new file named `create-project.sh`:
 touch create-project.sh
 ```
 
-### 2. Add the script content
+### 3. Add the script content
 
 Open the `create-project.sh` file you just created and copy the content from the `create-project.sh` file in this repository into it.
 
-### 3. Give the script execution rights
+### 4. Give the script execution rights
 
 Make the script executable by running this command:
 
@@ -30,7 +28,7 @@ Make the script executable by running this command:
 chmod +x create-project.sh
 ```
 
-### 4. Run the script
+### 5. Run the script
 
 Now you can use the script to create a new project. To do so, run the following command:
 
@@ -39,7 +37,3 @@ Now you can use the script to create a new project. To do so, run the following 
 ```
 
 **Note:** Replace `project-name` with the desired name for your project.
-
----
-
-This revised version is clearer and better organized, making it easier for others to follow the instructions. Let me know if you need any further adjustments!
